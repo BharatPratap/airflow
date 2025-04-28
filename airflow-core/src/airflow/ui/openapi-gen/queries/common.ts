@@ -1852,6 +1852,9 @@ export type XcomServiceCreateXcomEntryMutationResult = Awaited<
 export type VariableServicePostVariableMutationResult = Awaited<
   ReturnType<typeof VariableService.postVariable>
 >;
+export type DagParsingServiceReserializeDagsMutationResult = Awaited<
+  ReturnType<typeof DagParsingService.reserializeDags>
+>;
 export type BackfillServicePauseBackfillMutationResult = Awaited<
   ReturnType<typeof BackfillService.pauseBackfill>
 >;
